@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'SamsungOne';
+  src: url(../fonts/SamsungOne-400.eot);
+  src: url(../fonts/SamsungOne-400.eot?#iefix) format("embedded-opentype"),url(../fonts/SamsungOne-400.woff) format("woff"),url(../fonts/SamsungOne-400.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SamsungOne';
+  src: url(../fonts/SamsungOne-700.eot);
+  src: url(../fonts/SamsungOne-700.eot?#iefix) format("embedded-opentype"),url(../fonts/SamsungOne-700.woff) format("woff"),url(../fonts/SamsungOne-700.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'SamsungSharpSans';
+  src: url(../fonts/SamsungSharpSans-Bold.eot);
+  src: url(../fonts/SamsungSharpSans-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/SamsungSharpSans-Bold.woff) format("woff"),url(../fonts/SamsungOne-700.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal
+}
+
+.font-normal{
+  font-family:'SamsungOne';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-semiBold{
+  font-family: 'SamsungOne';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-bold{
+  font-family: 'focobold';
+  font-weight: bold;
+  font-style: normal;
+}

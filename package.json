@@ -1,0 +1,40 @@
+{
+  "name": "template-srburns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srburns-peru",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^3.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-uglifycss": "^1.0.9",
+    "gulp-uglifyjs": "^0.6.2",
+    "plumber": "^0.4.8"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "browserify": "^15.0.0",
+    "buffer": "^5.0.8",
+    "gulp-image": "^4.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-webserver": "^0.9.1",
+    "gulp.spritesmith": "^6.9.0",
+    "jquery": "^3.2.1",
+    "source": "0.0.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

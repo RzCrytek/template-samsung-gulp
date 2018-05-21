@@ -1,0 +1,55 @@
+header
+  .gb-gnb__dimmed
+  nav.gb-gnb
+    .gb-gnb__bar
+      .gb-gnb__bar-inner
+
+        a.s-svg.gb-gnb__logo( href='http://www.samsung.com/pe/' )
+          span.blind Saumsung
+
+        button(type="button", class="s-svg s-gnb-toggler")
+          span(class="blind") Open the Menu
+
+        ul.gb-gnb__main
+          
+          -
+            var nameMenu = [
+              {name:'MÓVILES', link:'http://www.samsung.com/pe/mobile/'},
+              {name:'TV & AV', link:'http://www.samsung.com/pe/tvs/'},
+              {name:'ELECTROHOGAR', link:'http://www.samsung.com/pe/home-appliances/'},
+              {name:'IT', link:'http://www.samsung.com/pe/monitors/'},
+            ]
+
+          each item in nameMenu
+            li.s-depth1-wrap
+              a.s-btn-toggler.js-toggler.js-depth1-link( href=item.link, target='_blank' ) #{item.name}
+
+        .gb-gnb__sub
+          ul.gb-gnb__sub-nav
+            li.s-depth1-wrap
+              a.s-btn-link(href='http://www.samsung.com/pe/support/', target='_blank') SOPORTE
+                span.s-svg.s-arw-right
+
+            li.s-depth1-wrap
+              a.s-btn-link(href='http://www.samsung.com/pe/business/', target='_blank') EMPRESAS
+                span.s-svg.s-ico-new-window
+
+        .gb-gnb__drop-mobile.drilldown
+          .gb-gnb__drop-mobile-wrap.drilldown-container
+            .drilldown-root
+          
+              ul#mobile_left.s-depth1-wrap
+
+                each val in nameMenu
+                  li
+                    a.s-depth1-link( href=val.link, target='_blank' ) #{val.name}
+                      span.s-svg.s-arw-right
+
+
+              ul#mobile_right.s-depth1-wrap
+                li
+                  a.s-depth1-link(href='http://www.samsung.com/pe/support/', target='_blank') SOPORTE
+                li
+                  a.s-depth1-link(href='http://www.samsung.com/pe/business/', target='_blank')
+                    | EMPRESAS
+                    span.s-svg.s-ico-new-window
