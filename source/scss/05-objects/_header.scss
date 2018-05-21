@@ -14,14 +14,16 @@
     top: 0;
     left: 0;
     display: block;
-    background-image: url(../images/svg/sp-gnb-pc.png);
+    // background-image: url(../images/svg/sp-gnb-pc.png);
+    @include bgimage-png(sp-gnb-pc);
     background-size: 160px auto;
     background-repeat: no-repeat;
     color: transparent;
     content: '';
 
     @media screen and (max-width:768px) {
-	    background-image: url(../images/svg/sp-gnb-mo.png);
+	    // background-image: url(../images/svg/sp-gnb-mo.png);
+      @include bgimage-png(sp-gnb-mo);
 	    background-size: 130px auto;
 	    content: '.';
     }

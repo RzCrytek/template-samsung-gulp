@@ -128,7 +128,8 @@ footer{
             width: 7px;
             height: 11px;
             margin-left: 9px;
-            background-image: url(../images/svg/svg-arw-right-gray.svg);
+            // background-image: url(../images/svg/svg-arw-right-gray.svg);
+            @include bgimage-svg(svg-arw-right-gray);
             background-size: 7px 11px;
             content: '';
           }
@@ -137,7 +138,8 @@ footer{
             width: 7px;
             height: 11px;
             margin-left: 9px;
-            background-image: url(../images/svg/svg-arw-right-hover.svg);
+            // background-image: url(../images/svg/svg-arw-right-hover.svg);
+            @include bgimage-svg(svg-arw-right-hover);
             background-size: 7px 11px;
             content: "";
           }
@@ -289,28 +291,34 @@ footer{
 
       a{
         .s-ico-chat {
-          background-image: url(../images/svg/svg-chat.svg);
+          // background-image: url(../images/svg/svg-chat.svg);
+          @include bgimage-svg(svg-chat);
         }
 
         .s-ico-email {
-          background-image: url(../images/svg/svg-email.svg);
+          // background-image: url(../images/svg/svg-email.svg);
+          @include bgimage-svg(svg-email);
         }
 
         .s-ico-call {
-          background-image: url(../images/svg/svg-call.svg);
+          // background-image: url(../images/svg/svg-call.svg);
+          @include bgimage-svg(svg-call);
         }
 
         &:hover{
           .s-ico-chat {
-            background-image: url(../images/svg/svg-chat-hover.svg);
+            // background-image: url(../images/svg/svg-chat-hover.svg);
+@include bgimage-svg(svg-chat-hover);
           }
 
           .s-ico-email {
-            background-image: url(../images/svg/svg-email-hover.svg);
+            // background-image: url(../images/svg/svg-email-hover.svg);
+@include bgimage-svg(svg-email-hover);
           }
 
           .s-ico-call {
-            background-image: url(../images/svg/svg-call-hover.svg);
+            // background-image: url(../images/svg/svg-call-hover.svg);
+@include bgimage-svg(svg-call-hover);
           }
 
         }
@@ -388,34 +396,44 @@ footer{
     }
     
     .s-facebook a {
-      background-image: url(../images/svg/svg-gb-facebook.svg);
+      // background-image: url(../images/svg/svg-gb-facebook.svg);
+@include bgimage-svg(svg-gb-facebook);
       &:hover {
-        background-image: url(../images/svg/svg-gb-facebook-hover.svg);
+        // background-image: url(../images/svg/svg-gb-facebook-hover.svg);
+        @include bgimage-svg(svg-gb-facebook-hover);
       }
     }
     .s-twitter a {
-      background-image: url(../images/svg/svg-gb-twitter.svg);
+      // background-image: url(../images/svg/svg-gb-twitter.svg);
+@include bgimage-svg(svg-gb-twitter);
       &:hover {
-        background-image: url(../images/svg/svg-gb-twitter-hover.svg);
+        // background-image: url(../images/svg/svg-gb-twitter-hover.svg);
+        @include bgimage-svg(svg-gb-twitter-hover);
       }
     }
     .s-instagram a {
-      background-image: url(../images/svg/svg-gb-instagram.svg);
+      // background-image: url(../images/svg/svg-gb-instagram.svg);
+@include bgimage-svg(svg-gb-instagram);
       &:hover {
-        background-image: url(../images/svg/svg-gb-instagram-hover.svg);
+        // background-image: url(../images/svg/svg-gb-instagram-hover.svg);
+        @include bgimage-svg(svg-gb-instagram-hover);
       }
     }
     .s-youtube a {
-      background-image: url(../images/svg/svg-gb-youtube.svg);
+      // background-image: url(../images/svg/svg-gb-youtube.svg);
+@include bgimage-svg(svg-gb-youtube);
       &:hover {
-        background-image: url(../images/svg/svg-gb-youtube-hover.svg);
+        // background-image: url(../images/svg/svg-gb-youtube-hover.svg);
+        @include bgimage-svg(svg-gb-youtube-hover);
       }
     }
 
     .s-in a {
-      background-image: url(../images/svg/svg-gb-in-square.svg);
+      // background-image: url(../images/svg/svg-gb-in-square.svg);
+      @include bgimage-svg(svg-gb-in-square);
       &:hover {
-        background-image: url(../images/svg/svg-gb-in-square-hover.svg);
+        // background-image: url(../images/svg/svg-gb-in-square-hover.svg);
+        @include bgimage-svg(svg-gb-in-square-hover);
       }
     }
 
@@ -496,7 +514,8 @@ footer{
         text-decoration: underline;
 
         &:after{
-          background-image: url(../images/svg/svg-footer-top-hover.svg);
+          // background-image: url(../images/svg/svg-footer-top-hover.svg);
+          @include bgimage-svg(svg-footer-top-hover);
           color: #1428a0;
         }
       }
@@ -508,7 +527,8 @@ footer{
         width: 10px;
         height: 6px;
         margin: -1px 0 1px 10px;
-        background-image: url(../images/svg/svg-footer-top.svg);
+        // background-image: url(../images/svg/svg-footer-top.svg);
+@include bgimage-svg(svg-footer-top);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         content: '';
@@ -527,14 +547,16 @@ footer{
 
   &__nav-link{
     a:hover:after{
-      background-image: url(../images/svg/svg-arw-right-hover.svg);
+      // background-image: url(../images/svg/svg-arw-right-hover.svg);
+      @include bgimage-svg(svg-arw-right-hover);
     }
   }
 
   .gb-footer__blank{
     a{
       &:after {
-        background-image: url(../images/svg/svg-new-window.svg);
+        // background-image: url(../images/svg/svg-new-window.svg);
+@include bgimage-svg(svg-new-window);
       }
 
       &:hover:after {
@@ -542,7 +564,8 @@ footer{
         width: 11px;
         height: 11px;
         background-size: 11px 11px;
-        background-image: url(../images/svg/svg-new-window-hover.svg);
+        // background-image: url(../images/svg/svg-new-window-hover.svg);
+        @include bgimage-svg(svg-new-window-hover);
 
         @media screen and (max-width:768px) {
           width: 9px;
@@ -651,7 +674,8 @@ footer{
       }
 
       &:after{
-        background-image: url(../images/svg/svg-arw-right-white.svg);
+        // background-image: url(../images/svg/svg-arw-right-white.svg);
+        @include bgimage-svg(svg-arw-right-white);
         position: absolute;
         top: 2px;
         right: 0;

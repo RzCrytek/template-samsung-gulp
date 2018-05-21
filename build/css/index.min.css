@@ -28,7 +28,7 @@
 /* BUTTON */
 /* FONT SMOOTHING */
 @font-face {
-  font-family: 'SamsungOne';
+  font-family: "SamsungOne";
   src: url(../fonts/SamsungOne-400.eot);
   src: url(../fonts/SamsungOne-400.eot?#iefix) format("embedded-opentype"), url(../fonts/SamsungOne-400.woff) format("woff"), url(../fonts/SamsungOne-400.ttf) format("truetype");
   font-weight: normal;
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'SamsungOne';
+  font-family: "SamsungOne";
   src: url(../fonts/SamsungOne-700.eot);
   src: url(../fonts/SamsungOne-700.eot?#iefix) format("embedded-opentype"), url(../fonts/SamsungOne-700.woff) format("woff"), url(../fonts/SamsungOne-700.ttf) format("truetype");
   font-weight: bold;
@@ -44,9 +44,9 @@
 }
 
 @font-face {
-  font-family: 'SamsungSharpSans';
+  font-family: "SamsungSharpSans";
   src: url(../fonts/SamsungSharpSans-Bold.eot);
-  src: url(../fonts/SamsungSharpSans-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/SamsungSharpSans-Bold.woff) format("woff"), url(../fonts/SamsungOne-700.ttf) format("truetype");
+  src: url(../fonts/SamsungSharpSans-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/SamsungSharpSans-Bold.woff) format("woff"), url(../fonts/SamsungSharpSans-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -88,7 +88,7 @@
   top: 0;
   left: 0;
   display: block;
-  background-image: url(../images/svg/sp-gnb-pc.png);
+  background-image: url("../images/svg/sp-gnb-pc.png");
   background-size: 160px auto;
   background-repeat: no-repeat;
   color: transparent;
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 768px) {
   .gb-gnb .s-svg:after {
-    background-image: url(../images/svg/sp-gnb-mo.png);
+    background-image: url("../images/svg/sp-gnb-mo.png");
     background-size: 130px auto;
     content: '.';
   }
@@ -540,7 +540,7 @@ footer {
   width: 7px;
   height: 11px;
   margin-left: 9px;
-  background-image: url(../images/svg/svg-arw-right-gray.svg);
+  background-image: url("../images/svg/svg-arw-right-gray.svg");
   background-size: 7px 11px;
   content: '';
 }
@@ -550,7 +550,7 @@ footer {
   width: 7px;
   height: 11px;
   margin-left: 9px;
-  background-image: url(../images/svg/svg-arw-right-hover.svg);
+  background-image: url("../images/svg/svg-arw-right-hover.svg");
   background-size: 7px 11px;
   content: "";
 }
@@ -713,27 +713,27 @@ footer {
 }
 
 .gb-footer__top .s-support-link a .s-ico-chat {
-  background-image: url(../images/svg/svg-chat.svg);
+  background-image: url("../images/svg/svg-chat.svg");
 }
 
 .gb-footer__top .s-support-link a .s-ico-email {
-  background-image: url(../images/svg/svg-email.svg);
+  background-image: url("../images/svg/svg-email.svg");
 }
 
 .gb-footer__top .s-support-link a .s-ico-call {
-  background-image: url(../images/svg/svg-call.svg);
+  background-image: url("../images/svg/svg-call.svg");
 }
 
 .gb-footer__top .s-support-link a:hover .s-ico-chat {
-  background-image: url(../images/svg/svg-chat-hover.svg);
+  background-image: url("../images/svg/svg-chat-hover.svg");
 }
 
 .gb-footer__top .s-support-link a:hover .s-ico-email {
-  background-image: url(../images/svg/svg-email-hover.svg);
+  background-image: url("../images/svg/svg-email-hover.svg");
 }
 
 .gb-footer__top .s-support-link a:hover .s-ico-call {
-  background-image: url(../images/svg/svg-call-hover.svg);
+  background-image: url("../images/svg/svg-call-hover.svg");
 }
 
 @media screen and (max-width: 768px) {
@@ -809,43 +809,43 @@ footer {
 }
 
 .gb-footer__sns-list .s-facebook a {
-  background-image: url(../images/svg/svg-gb-facebook.svg);
+  background-image: url("../images/svg/svg-gb-facebook.svg");
 }
 
 .gb-footer__sns-list .s-facebook a:hover {
-  background-image: url(../images/svg/svg-gb-facebook-hover.svg);
+  background-image: url("../images/svg/svg-gb-facebook-hover.svg");
 }
 
 .gb-footer__sns-list .s-twitter a {
-  background-image: url(../images/svg/svg-gb-twitter.svg);
+  background-image: url("../images/svg/svg-gb-twitter.svg");
 }
 
 .gb-footer__sns-list .s-twitter a:hover {
-  background-image: url(../images/svg/svg-gb-twitter-hover.svg);
+  background-image: url("../images/svg/svg-gb-twitter-hover.svg");
 }
 
 .gb-footer__sns-list .s-instagram a {
-  background-image: url(../images/svg/svg-gb-instagram.svg);
+  background-image: url("../images/svg/svg-gb-instagram.svg");
 }
 
 .gb-footer__sns-list .s-instagram a:hover {
-  background-image: url(../images/svg/svg-gb-instagram-hover.svg);
+  background-image: url("../images/svg/svg-gb-instagram-hover.svg");
 }
 
 .gb-footer__sns-list .s-youtube a {
-  background-image: url(../images/svg/svg-gb-youtube.svg);
+  background-image: url("../images/svg/svg-gb-youtube.svg");
 }
 
 .gb-footer__sns-list .s-youtube a:hover {
-  background-image: url(../images/svg/svg-gb-youtube-hover.svg);
+  background-image: url("../images/svg/svg-gb-youtube-hover.svg");
 }
 
 .gb-footer__sns-list .s-in a {
-  background-image: url(../images/svg/svg-gb-in-square.svg);
+  background-image: url("../images/svg/svg-gb-in-square.svg");
 }
 
 .gb-footer__sns-list .s-in a:hover {
-  background-image: url(../images/svg/svg-gb-in-square-hover.svg);
+  background-image: url("../images/svg/svg-gb-in-square-hover.svg");
 }
 
 .gb-footer__copyright {
@@ -914,7 +914,7 @@ footer {
 }
 
 .gb-footer__btn-top a:hover:after {
-  background-image: url(../images/svg/svg-footer-top-hover.svg);
+  background-image: url("../images/svg/svg-footer-top-hover.svg");
   color: #1428a0;
 }
 
@@ -925,7 +925,7 @@ footer {
   width: 10px;
   height: 6px;
   margin: -1px 0 1px 10px;
-  background-image: url(../images/svg/svg-footer-top.svg);
+  background-image: url("../images/svg/svg-footer-top.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   content: '';
@@ -942,11 +942,11 @@ footer {
 }
 
 .gb-footer__nav-link a:hover:after {
-  background-image: url(../images/svg/svg-arw-right-hover.svg);
+  background-image: url("../images/svg/svg-arw-right-hover.svg");
 }
 
 .gb-footer .gb-footer__blank a:after {
-  background-image: url(../images/svg/svg-new-window.svg);
+  background-image: url("../images/svg/svg-new-window.svg");
 }
 
 .gb-footer .gb-footer__blank a:hover:after {
@@ -954,7 +954,7 @@ footer {
   width: 11px;
   height: 11px;
   background-size: 11px 11px;
-  background-image: url(../images/svg/svg-new-window-hover.svg);
+  background-image: url("../images/svg/svg-new-window-hover.svg");
 }
 
 @media screen and (max-width: 768px) {
@@ -1071,7 +1071,7 @@ footer {
 }
 
 .gb-footer__lang a:after {
-  background-image: url(../images/svg/svg-arw-right-white.svg);
+  background-image: url("../images/svg/svg-arw-right-white.svg");
   position: absolute;
   top: 2px;
   right: 0;

@@ -1,0 +1,42 @@
+// COMPILE NORMAL
+
+@mixin url-tipo($name, $nameUrl) {
+  font-family: '#{$name}';
+  src: url(../fonts/#{$nameUrl}.eot);
+  src: url(../fonts/#{$nameUrl}.eot?#iefix) format("embedded-opentype"), 
+  url(../fonts/#{$nameUrl}.woff) format("woff"), 
+  url(../fonts/#{$nameUrl}.ttf) format("truetype");
+}
+
+@mixin bgimage-png($name) {
+  $url:"../images/svg/#{$name}.png";
+  background-image: url($url);
+}
+
+@mixin bgimage-svg($name) {
+  $url:"../images/svg/#{$name}.svg";
+  background-image: url($url);
+}
+
+// COMPILE RAILS
+
+// @mixin url-tipo($name, $nameUrl) {
+//   font-family: '#{$name}';
+//   src: asset-url("#{$nameUrl}.eot");
+//   src: asset-url("#{$nameUrl}.eot?#iefix") format("embedded-opentype"), 
+//   asset-url("#{$nameUrl}.woff") format("woff"), 
+//   asset-url("#{$nameUrl}.ttf") format("truetype");
+// }
+
+// @mixin bgimage-png($name) {
+//   $url:"svg/#{$name}.png";
+//   background-image: asset-url($url);
+// }
+
+// @mixin bgimage-svg($name) {
+//   $url:"svg/#{$name}.svg";
+//   background-image: asset-url($url);
+// }
+
+
+// @include bgimage(your-png-file-without-extension);
