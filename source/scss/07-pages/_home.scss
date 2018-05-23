@@ -9,7 +9,6 @@
 html,
 body {
   margin: 0;
-  font-family:'SamsungOne', arial;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -23,12 +22,4 @@ ul{
 
 a{
   text-decoration:none;
-}
-
-.blind, legend {
-  overflow: hidden;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
 }

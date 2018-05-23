@@ -69,7 +69,16 @@
   font-style: normal;
 }
 
+.blind, legend {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .gb-gnb {
+  font-family: 'SamsungOne', arial;
   position: relative;
   z-index: 1000;
 }
@@ -408,6 +417,7 @@
 }
 
 footer {
+  font-family: 'SamsungOne', arial;
   text-align: left;
   padding: 0;
 }
@@ -762,8 +772,10 @@ footer {
   font-size: 14px;
 }
 
-.gb-footer__depth2 .gb-footer__item {
-  display: inline-block;
+@media screen and (max-width: 768px) {
+  .gb-footer__depth2 .gb-footer__item {
+    display: inline-block;
+  }
 }
 
 .gb-footer__sns-list .gb-footer__depth2 {
@@ -806,6 +818,14 @@ footer {
   width: 40px;
   height: 40px;
   line-height: 999px;
+}
+
+@media screen and (max-width: 768px) {
+  .gb-footer__sns-list a {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+  }
 }
 
 .gb-footer__sns-list .s-facebook a {
@@ -1126,7 +1146,6 @@ footer {
 html,
 body {
   margin: 0;
-  font-family: 'SamsungOne', arial;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -1140,12 +1159,4 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-.blind, legend {
-  overflow: hidden;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
 }

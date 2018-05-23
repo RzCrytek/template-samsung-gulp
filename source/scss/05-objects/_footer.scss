@@ -1,4 +1,5 @@
 footer{
+  font-family:'SamsungOne', arial;
   text-align:left;
   padding:0;
 }
@@ -145,7 +146,7 @@ footer{
           }
         }
       }
-      
+
       @media screen and (max-width:768px) {
         .gb-footer__sns-list strong{
           margin-bottom:0;
@@ -178,7 +179,7 @@ footer{
           top: 0;
           width: 6px;
           height: 9px;
-          background-size: 6px 9px;          
+          background-size: 6px 9px;
         }
       }
 
@@ -235,7 +236,7 @@ footer{
 
 
     .s-support-link {
-      
+
       @media screen and (max-width:768px) {
         padding: 25px 24px 5px 24px;
         border-bottom: 1px solid #d0d0d0;
@@ -250,7 +251,7 @@ footer{
       }
       .gb-footer__item {
         margin-top: 11px;
-        
+
         @media screen and (max-width:768px) {
           margin: 0 30px 22px 0;
         }
@@ -263,7 +264,7 @@ footer{
           position: relative;
           padding-left: 25px;
           line-height: 1.571;
-          
+
           @media screen and (max-width:768px) {
             padding-left: 32px;
             font-size: 12px;
@@ -324,12 +325,12 @@ footer{
         }
       }
     }
-    
+
     .s-sns-link{
       @media screen and (max-width:768px) {
         padding: 24px 24px 30px 24px;
       }
-    
+
       .gb-footer__depth2{
         @media screen and (max-width:768px) {
           margin: 0 -14px 0;
@@ -341,7 +342,7 @@ footer{
   }
 
   &__depth2 {
-    
+
     @media screen and (max-width:768px) {
       margin: -1px -18px 0 0;
     }
@@ -352,7 +353,9 @@ footer{
     }
 
     .gb-footer__item{
-      display:inline-block;
+      @media screen and (max-width:768px) {
+        display:inline-block;
+      }
     }
 
   }
@@ -362,7 +365,7 @@ footer{
       max-width: 224px;
       margin-right: -16px;
       padding-top: 6px;
-      
+
       @media screen and (max-width:768px) {
         max-width: inherit;
         padding-top: 0;
@@ -393,11 +396,18 @@ footer{
       width: 40px;
       height: 40px;
       line-height: 999px;
+
+      @media screen and (max-width:768px) {
+        width: 35px;
+        height: 35px;
+        background-size: 35px 35px;
+      }
+
     }
-    
+
     .s-facebook a {
       // background-image: url(../images/svg/svg-gb-facebook.svg);
-@include bgimage-svg(svg-gb-facebook);
+      @include bgimage-svg(svg-gb-facebook);
       &:hover {
         // background-image: url(../images/svg/svg-gb-facebook-hover.svg);
         @include bgimage-svg(svg-gb-facebook-hover);
@@ -405,7 +415,7 @@ footer{
     }
     .s-twitter a {
       // background-image: url(../images/svg/svg-gb-twitter.svg);
-@include bgimage-svg(svg-gb-twitter);
+      @include bgimage-svg(svg-gb-twitter);
       &:hover {
         // background-image: url(../images/svg/svg-gb-twitter-hover.svg);
         @include bgimage-svg(svg-gb-twitter-hover);
@@ -413,7 +423,7 @@ footer{
     }
     .s-instagram a {
       // background-image: url(../images/svg/svg-gb-instagram.svg);
-@include bgimage-svg(svg-gb-instagram);
+      @include bgimage-svg(svg-gb-instagram);
       &:hover {
         // background-image: url(../images/svg/svg-gb-instagram-hover.svg);
         @include bgimage-svg(svg-gb-instagram-hover);
@@ -421,7 +431,7 @@ footer{
     }
     .s-youtube a {
       // background-image: url(../images/svg/svg-gb-youtube.svg);
-@include bgimage-svg(svg-gb-youtube);
+      @include bgimage-svg(svg-gb-youtube);
       &:hover {
         // background-image: url(../images/svg/svg-gb-youtube-hover.svg);
         @include bgimage-svg(svg-gb-youtube-hover);
@@ -458,14 +468,14 @@ footer{
   //     }
   //   }
   // }
-  
+
   &__copyright {
     margin-top: 9px;
     font-size: 12px;
     color: #363636;
     font-weight: normal;
     word-break: break-word;
-    
+
     @media screen and (max-width:768px) {
       top: auto;
       margin-top: 2px;
@@ -503,13 +513,13 @@ footer{
       padding-right: 20px;
       font-size: 12px;
       min-width: 10px;
-      
+
       @media screen and(max-width:768px) {
         display: block;
         padding: 18px 0 16px;
         font-size: 14px;
-      }  
-      
+      }
+
       &:hover{
         text-decoration: underline;
 
@@ -528,7 +538,7 @@ footer{
         height: 6px;
         margin: -1px 0 1px 10px;
         // background-image: url(../images/svg/svg-footer-top.svg);
-@include bgimage-svg(svg-footer-top);
+        @include bgimage-svg(svg-footer-top);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         content: '';
@@ -556,7 +566,7 @@ footer{
     a{
       &:after {
         // background-image: url(../images/svg/svg-new-window.svg);
-@include bgimage-svg(svg-new-window);
+        @include bgimage-svg(svg-new-window);
       }
 
       &:hover:after {
@@ -606,7 +616,7 @@ footer{
       @media screen and (max-width:768px) {
         display: block;
         padding-bottom: 4px;
-        
+
         a{
           font-size: 10px;
           line-height: 1.5;
@@ -638,7 +648,7 @@ footer{
         }
       }
     }
-    
+
     .gb-footer__inner{
       padding: 0 24px;
     }
@@ -702,7 +712,7 @@ footer{
 
   &__legal{
     margin: 10px 0;
-    
+
     @media screen and (max-width:768px) {
       margin: 17px 0 2px;
     }
