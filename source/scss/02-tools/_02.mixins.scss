@@ -3,8 +3,8 @@
 @mixin url-tipo($name, $nameUrl) {
   font-family: '#{$name}';
   src: url(../fonts/#{$nameUrl}.eot);
-  src: url(../fonts/#{$nameUrl}.eot?#iefix) format("embedded-opentype"), 
-  url(../fonts/#{$nameUrl}.woff) format("woff"), 
+  src: url(../fonts/#{$nameUrl}.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/#{$nameUrl}.woff) format("woff"),
   url(../fonts/#{$nameUrl}.ttf) format("truetype");
 }
 
@@ -23,8 +23,8 @@
 // @mixin url-tipo($name, $nameUrl) {
 //   font-family: '#{$name}';
 //   src: asset-url("#{$nameUrl}.eot");
-//   src: asset-url("#{$nameUrl}.eot?#iefix") format("embedded-opentype"), 
-//   asset-url("#{$nameUrl}.woff") format("woff"), 
+//   src: asset-url("#{$nameUrl}.eot?#iefix") format("embedded-opentype"),
+//   asset-url("#{$nameUrl}.woff") format("woff"),
 //   asset-url("#{$nameUrl}.ttf") format("truetype");
 // }
 

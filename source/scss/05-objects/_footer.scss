@@ -84,7 +84,7 @@ footer{
 
   // &__nav-link{
   //   a:hover:after{
-  @includeimage: bgimage-svg(svg-arw-right-hover);
+  //     @include bgimage-svg(svg-arw-right-hover);
   //   }
   // }
 
@@ -202,6 +202,7 @@ footer{
           width: auto;
           margin-top: 17px;
           padding: 0;
+          line-height: 21px;
 
           &:first-child{
             margin-top:0;
@@ -309,17 +310,17 @@ footer{
         &:hover{
           .s-ico-chat {
             // background-image: url(../images/svg/svg-chat-hover.svg);
-@include bgimage-svg(svg-chat-hover);
+            @include bgimage-svg(svg-chat-hover);
           }
 
           .s-ico-email {
             // background-image: url(../images/svg/svg-email-hover.svg);
-@include bgimage-svg(svg-email-hover);
+            @include bgimage-svg(svg-email-hover);
           }
 
           .s-ico-call {
             // background-image: url(../images/svg/svg-call-hover.svg);
-@include bgimage-svg(svg-call-hover);
+            @include bgimage-svg(svg-call-hover);
           }
 
         }

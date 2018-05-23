@@ -426,7 +426,6 @@ footer {
   border-top: 1px solid #d0d0d0;
   background: #f7f7f7;
   font-size: 0;
-  @includeimage : bgimage-svg(svg-arw-right-hover);
 }
 
 .gb-footer p {
@@ -625,6 +624,7 @@ footer {
     width: auto;
     margin-top: 17px;
     padding: 0;
+    line-height: 21px;
   }
   .gb-footer__top .gb-footer__nav-link .gb-footer__col4:first-child {
     margin-top: 0;
